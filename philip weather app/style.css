@@ -1,0 +1,54 @@
+/** @format */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+	font-family: "Roboto", sans-serif;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 23rem;
+	height: auto;
+	margin: 0% auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	letter-spacing: 0.03rem;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	gap: 0.3rem;
+	padding: 1rem;
+	overflow: hidden;
+}
+
+h1.greeting {
+	font-size: 3.5rem;
+	margin: 1rem 0;
+	padding: 0.3rem;
+	position: relative;
+	left: -500px;
+	transition: all, 1s;
+}
+
+p.weather-styling {
+	font-size: 1.25rem;
+	font-weight: 400;
+	padding: 0.3rem;
+	width: 100%;
+	transition: all, 0.5s;
+	position: relative;
+	left: -500px;
+}
+
+p.weather-styling:hover {
+	background-color: rgb(231, 231, 231);
+}
+
+span {
+	font-weight: 500;
+}
